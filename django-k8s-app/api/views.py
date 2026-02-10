@@ -9,4 +9,4 @@ def health(request):
 
 @api_view(['GET'])
 def name(request):
-    return Response({'name': 'Django K8s App, second sync'})
+    return Response({'name': 'Django K8s App, argo: version 2.13 '})
