@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: name-container
-        image: manoj835/name:v3
+        image: manoj835/name:v5
         ports:
         - containerPort: 8000
         resources:
