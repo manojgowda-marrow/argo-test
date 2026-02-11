@@ -4,7 +4,7 @@ from rest_framework.response import Response
 
 @api_view(['GET'])
 def health(request):
-    return Response({'status': 'healthy'})
+    return Response({'status': 'healthy v1'})
 
 
 @api_view(['GET'])

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: name-container
-        image: manoj835/health:latest
+        image: manoj835/health:v1
         ports:
         - containerPort: 8000
         resources:
